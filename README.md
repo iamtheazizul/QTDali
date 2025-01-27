@@ -1,5 +1,5 @@
 # QuickThought
-A web app that helps users manage their free time and generate recommendations for activities.
+A web app that helps users manage their free time and generate recommendations for activities. [DALI API Challenge]
 
 NOTE: You need your own API_Key to run this application as it relies on OpenAI's API
 
