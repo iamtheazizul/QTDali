@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Center the main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Add space below the heading */
+}
+/* src/styles/App.css */
+/* src/styles/App.css */
+button {
+  margin: 10px 5px; /* Margin around buttons to create spacing */
+  padding: 10px 20px; /* Padding inside buttons for better appearance */
+  border-radius: 8px; /* Rounded corners for the buttons */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #007bff; /* Default hover for most buttons */
+  color: white; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly grow the button */
+}
+
+/* Specific hover style for sign-out buttons */
+.btn-danger:hover {
+  background-color: #ff4d4d; /* Lighter red for sign out */
+  color: white; /* Keep text color white */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green background for success */
+  color: white; /* White text */
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff; /* Outline for primary buttons */
+  color: #007bff; /* Text color for outline */
+}
+
+.btn-outline-danger {
+  border: 1px solid #dc3545; /* Outline for danger buttons */
+  color: #dc3545; /* Text color for danger */
+}
+
+/* Ensure danger buttons have a red background on hover */
+.btn-danger {
+  background-color: #dc3545; /* Red background for danger */
+  color: white; /* White text */
+}
